@@ -25,7 +25,7 @@ SECRET_KEY = '@=mvccerd#@@!5jm!gcb9lw7$mp1slxox#-ppc4izfjqmlptgl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'jene4ek.pythonanywhere.com']
 
 
 # Application definition
@@ -120,5 +120,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
-ALLOWED_HOSTS = ['127.0.0.1', 'jene4ek.pythonanywhere.com']
